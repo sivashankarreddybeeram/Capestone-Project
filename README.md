@@ -41,28 +41,27 @@ The project addresses primary research questions and concludes with evidence-bas
 
 ## 🧪 Methodology & Test Environment
 
-### [cite_start]**Test Setup** [cite: 241]
+### **Test Setup**
 
-| Component | Specification | Source |
-| :--- | :--- | :--- |
-| **Hardware** | [cite_start]SanDisk USB 3.2 Gen 1 Flash Drive, 125 GB [cite: 243] [cite_start]| [cite: 243] |
-| **Host/Software** | [cite_start]Ubuntu 22.04 (VirtualBox VM) [cite: 245] [cite_start]| [cite: 245] |
-| **Benchmark Tools** | [cite_start]`/usr/bin/time` and `cp` [cite: 246] [cite_start]| [cite: 246] |
-| **Forensic recovery** | [cite_start]Autopsy (latest Linux release) [cite: 247] [cite_start]| [cite: 247] |
+**Hardware**
+* SanDisk USB 3.2 Gen 1 Flash Drive, 125 GB
+**Host/Software** - Ubuntu 22.04 (VirtualBox VM)
+**Benchmark Tools** - `/usr/bin/time` and `cp`
+**Forensic recovery** - Autopsy (latest Linux release)
 
-### [cite_start]**Data Files Used** [cite: 248]
+### **Data Files Used**
 
-[cite_start]A diverse set of files was selected for realistic benchmarking and recovery scenarios[cite: 249]:
+A diverse set of files was selected for realistic benchmarking and recovery scenarios:
 
 | File Name | Type | Description |
 | :--- | :--- | :--- |
-| `audio.mp3` | Audio | [cite_start]Medium-size media file [cite: 250] |
-| `data.zip` | ZIP Archive | [cite_start]Compressed dataset [cite: 250] |
-| `video1.mp4`, `video2.mp4` | MP4 Video | [cite_start]Large media files [cite: 250] |
-| `document.pdf` | PDF Document | [cite_start]Final reports & documentation [cite: 250] |
-| `chrome.deb` | Installation Package | [cite_start]Application installer [cite: 250] |
+| `audio.mp3` | Audio | Medium-size media file |
+| `data.zip` | ZIP Archive | Compressed dataset |
+| `video1.mp4`, `video2.mp4` | MP4 Video | Large media files |
+| `document.pdf` | PDF Document | Final reports & documentation |
+| `chrome.deb` | Installation Package | Application installer |
 
-### [cite_start]**Methodology Snippets** [cite: 257]
+### **Methodology Snippets**
 
 | File System | Action | Command |
 | :--- | :--- | :--- |
