@@ -21,20 +21,21 @@ USB drives are ubiquitous in incident response, malware forensics, and regulator
 
 ## 🎯 Objectives
 
-[cite_start]The project addresses primary research questions and concludes with evidence-based recommendations[cite: 227]:
+The project addresses primary research questions and concludes with evidence-based recommendations:
 
 * **Compare NTFS and EXT4** in terms of:
-    * [cite_start]Read/write performance across file types and workloads [cite: 229]
-    * [cite_start]Data recovery capabilities for different deleted files [cite: 230]
-    * [cite_start]Metadata preservation essential for forensic investigations [cite: 231]
-* [cite_start]Evaluate which file system is advisable for **recovery readiness**[cite: 233].
+    * Read/write performance across file types and workloads
+    * Data recovery capabilities for different deleted files
+    * Metadata preservation essential for forensic investigations
+* Benchmark using reliable, repeatable Linux methods.
+* Evaluate which file system is advisable for **recovery readiness**.
 
 ### **Skills Developed**
 
-* [cite_start]Digital forensic data acquisition [cite: 237]
-* [cite_start]File system analysis (NTFS, EXT4) on Linux [cite: 238]
-* [cite_start]Use of **Autopsy** for data recovery and validation [cite: 239]
-* [cite_start]Generation and interpretation of forensic metrics [cite: 240]
+* Digital forensic data acquisition
+* File system analysis (NTFS, EXT4) on Linux
+* Use of **Autopsy** for data recovery and validation
+* Generation and interpretation of forensic metrics
 
 ---
 
