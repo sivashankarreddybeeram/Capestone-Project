@@ -153,20 +153,33 @@ The bar chart visually highlights how **EXT4 consistently outperforms NTFS in wr
 
 ## 🔎 Data Recovery Summary (Using Autopsy)
 
-[cite_start]The data recovery phase focused on comparing the forensic readiness of both file systems after files were intentionally deleted[cite: 289].
+The data recovery phase focused on comparing the forensic readiness of both file systems after files were intentionally deleted.
 
-### [cite_start]**Forensic Process** [cite: 300]
+**NTFS**
 
-1.  [cite_start]A new case was created in Autopsy for each file system (NTFS and EXT4)[cite: 301].
-2.  [cite_start]The USB drive was added as a local disk data source[cite: 302].
-3.  [cite_start]Ingest modules like **"File Type Identification"** and **"Carve Files"** were enabled to ensure maximum recovery potential[cite: 303].
+* Deleted file scan shows comprehensive file restoration (normal filenames and folder structure retained)
+* Autopsy’s export includes robust metadata
+* Recovery time tracked in Autopsy logs (case open/close events, ingest job timestamp)
+
+**EXT4**
+
+* Recovery scan delivers most deleted files as “orphan files”
+  * Expected due to metadata handling of EXT4, filenames/paths often lost.
+* Files still accessible but with reduced metadata/integrity
+* Recovery time similarly benchmarked with Autopsy logs and session timestamps
+
+### **Forensic Process**
+
+* A new case was created in Autopsy for each file system (NTFS and EXT4).
+* The USB drive was added as a local disk data source.
+* Ingest modules like **"File Type Identification"** and **"Carve Files"** were enabled to ensure maximum recovery potential.
 
 ### [cite_start]**Key Recovery Observations** [cite: 304]
 
 | File System | Deleted Files Located | Recovery Observations |
 | :--- | :--- | :--- |
-| **NTFS** | [cite_start]Files identified by name (e.g., `chrome.deb`, `data.zip`)[cite: 305]. | [cite_start]**Successful.** Deleted file scan shows comprehensive file restoration (normal filenames and folder structure retained)[cite: 292]. |
-| **EXT4** | [cite_start]Files appeared as generic **"Orphan Files"**[cite: 306]. | [cite_start]**Partial/Unsuccessful.** Extracted files were labeled with numerical identifiers and shown as **0 KB** in size, indicating data blocks were not fully recoverable or correctly reassembled[cite: 307]. |
+| **NTFS** | Files identified by name (e.g., `chrome.deb`, `data.zip`). | **Successful.** Deleted file scan shows comprehensive file restoration (normal filenames and folder structure retained). |
+| **EXT4** | Files appeared as generic **"Orphan Files"**. | **Partial/Unsuccessful.** Extracted files were labeled with numerical identifiers and shown as **0 KB** in size, indicating data blocks were not fully recoverable or correctly reassembled. |
 
 ---
 
