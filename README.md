@@ -174,7 +174,7 @@ The data recovery phase focused on comparing the forensic readiness of both file
 * The USB drive was added as a local disk data source.
 * Ingest modules like **"File Type Identification"** and **"Carve Files"** were enabled to ensure maximum recovery potential.
 
-### [cite_start]**Key Recovery Observations** [cite: 304]
+### **Key Recovery Observations**
 
 | File System | Deleted Files Located | Recovery Observations |
 | :--- | :--- | :--- |
