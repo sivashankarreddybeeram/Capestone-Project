@@ -104,15 +104,18 @@ To reproduce these benchmarks and recovery steps:
 
 ## 📈 Performance Benchmarking
 
-### [cite_start]**Raw Performance Data (Elapsed Time in Seconds)** [cite: 274, 275, 278]
+### **NTFS Performance Data (Elapsed Time in Seconds)**
 
-| File | NTFS Write (s) | EXT4 Write (s) | NTFS Read (s) | EXT4 Read (s) |
-| :--- | :--- | :--- | :--- | :--- |
-| `audio.mp3` | 0.02 | 0.02 | 0.01 | 0.01 |
-| `data.zip` | **1.18** | 0.00 | 0.04 | 0.01 |
-| `video1.mp4`| 0.83 | 0.05 | 0.03 | 0.07 |
-| `chrome.deb`| 0.07 | 0.08 | — | **0.14** |
-| **AVERAGE** | **0.31s** | **0.03s** | **0.03s** | **0.04s** |
+| File | NTFS Write (s) | NTFS Read (s) |
+| :--- | :--- | :--- |
+| `audio.mp3` | 0.02 | 0.01 |
+| 'image.jpg' | 0.00 | 0.00 |
+| `document.pdf` | 0.02 | 0.00 |
+| `data.zip` | **1.18** | 0.04 |
+| `video1.mp4`| 0.83 | 0.03 |
+| `video2.mp4`| 0.07 | 0.09 |
+| `chrome.deb`| 0.07 | — |
+| **AVERAGE** | **0.31s** | **0.03s** |
 
 ### **Write and Read Speed Comparison: NTFS vs EXT4**
 
@@ -120,13 +123,13 @@ To reproduce these benchmarks and recovery steps:
 
 
 
-### [cite_start]**Key Performance Metrics** [cite: 284, 285]
+### **Key Performance Metrics**
 
 | Metric | Best Performer | Rationale |
 | :--- | :--- | :--- |
-| **Overall Write Speed** | **EXT4 (~10x faster)** | [cite_start]~10x faster average due to native kernel support[cite: 285]. |
-| **Overall Read Speed** | **Near Parity** | [cite_start]USB hardware is a bottleneck, NTFS showed slightly lower average latency[cite: 285]. |
-| **Large File Handling** | **EXT4** | [cite_start]Instantaneous writes for `.zip`, `.mp4` vs. seconds for NTFS[cite: 285]. |
+| **Overall Write Speed** | **EXT4** | ~10x faster average due to native kernel support. |
+| **Overall Read Speed** | **Near Parity** | USB hardware is a bottleneck, NTFS showed slightly lower average latency. |
+| **Large File Handling** | **EXT4** | Instantaneous writes for `.zip`, `.mp4` vs. seconds for NTFS. |
 
 ---
 
