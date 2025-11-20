@@ -45,7 +45,7 @@ The project addresses primary research questions and concludes with evidence-bas
 
 ## 🧪 Methodology & Test Environment
 
-### **Test Setup**
+### **Test Environment**
 
 **Hardware**
 * SanDisk USB 3.2 Gen 1 Flash Drive, 125 GB
@@ -77,14 +77,28 @@ To reproduce these benchmarks and recovery steps:
 * Delete the test files, then perform recovery with Autopsy.
 * Compare your timing and results with the tables and charts provided here.
 
-### **Methodology Snippets**
+### **Methodology**
 
-| File System | Action | Command |
-| :--- | :--- | :--- |
-| **NTFS Setup** | Format partition | [cite_start]`sudo mkfs.ntfs -f /dev/sdb1` [cite: 260] |
-| **EXT4 Setup** | Format partition | [cite_start]`sudo mkfs.ext4 -f /dev/sdb1` [cite: 263] |
-| **Mounting** | Attach partition for testing | [cite_start]`sudo mount /dev/sdb1 /mnt/usb` [cite: 261, 264] |
-| **Benchmarking**| Record elapsed time for copying | [cite_start]`/usr/bin/time -f "%E" cp <file> /mnt/usb` [cite: 266] |
+**File System Setup**
+* NTFS
+ * Format with sudo mkfs.ntfs -f /dev/sdb1
+ * Mount for testing: sudo mount /dev/sdb1 /mnt/usb
+* EXT4
+  * Format with sudo mkfs.ext4 -f /dev/sdb1
+  * Mount for testing: sudo mount /dev/sdb1 /mnt/usb
+
+**Benchmarking**
+
+* Write: cp <file> /mnt/usb (record wall-clock elapsed time)
+* Read: cp /mnt/usb/<file> <destination> (record wall-clock elapsed time)
+
+**Data Recovery**
+
+* Files deleted manually after copying.
+* USB scanned using Autopsy:
+  * Case setup, data source addition
+  * Modules: File Type Identification, Carve Files
+  * Recovered deleted files recorded, metadata checked
 
 ---
 
