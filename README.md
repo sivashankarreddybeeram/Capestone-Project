@@ -45,8 +45,11 @@ The project addresses primary research questions and concludes with evidence-bas
 
 **Hardware**
 * SanDisk USB 3.2 Gen 1 Flash Drive, 125 GB
+
 **Host/Software** - Ubuntu 22.04 (VirtualBox VM)
+
 **Benchmark Tools** - `/usr/bin/time` and `cp`
+
 **Forensic recovery** - Autopsy (latest Linux release)
 
 ### **Data Files Used**
