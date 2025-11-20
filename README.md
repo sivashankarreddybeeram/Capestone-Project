@@ -68,6 +68,15 @@ A diverse set of files was selected for realistic benchmarking and recovery scen
 | `document.pdf` | PDF Document | Final reports & documentation |
 | `chrome.deb` | Installation Package | Application installer |
 
+### Usage/Replication Instructions
+
+To reproduce these benchmarks and recovery steps:
+
+* Prepare a USB flash drive; format using NTFS and EXT4 as shown in the methodology.
+* Use provided Linux commands to benchmark read/write speeds.
+* Delete the test files, then perform recovery with Autopsy.
+* Compare your timing and results with the tables and charts provided here.
+
 ### **Methodology Snippets**
 
 | File System | Action | Command |
