@@ -2,9 +2,9 @@
 
 **Capstone Project | System Administration and Operating System Concepts**
 
-[cite_start]_Team Members: Siva Shankar Reddy Beeram, Amanda Gwaba, Avipsa Sharma Paudel_ [cite: 205, 206, 207]
+Team Members: Siva Shankar Reddy Beeram, Amanda Gwaba, Avipsa Sharma Paudel
 
-[cite_start]This project presents a comparative analysis of **NTFS** (New Technology File System) and **EXT4** (Fourth Extended File System) [cite: 216] [cite_start]on a USB 3.2 Gen 1 Flash Drive with Ubuntu 22.04 VM[cite: 216]. [cite_start]It covers read/write performance benchmarking and data recovery efficacy using the digital forensic tool **Autopsy**[cite: 217]. [cite_start]Our goal is to determine which file system offers superior speed, metadata retention, and effective file restoration for **forensic readiness** and **enterprise use**[cite: 218].
+This project presents a comparative analysis of **NTFS** (New Technology File System) and **EXT4** (Fourth Extended File System) on a USB 3.2 Gen 1 Flash Drive with Ubuntu 22.04 VM. It covers read/write performance benchmarking and data recovery efficacy using the digital forensic tool **Autopsy**. Our goal is to determine which file system offers superior speed, metadata retention, and effective file restoration for **forensic readiness** and **enterprise use**.
 
 ---
 
