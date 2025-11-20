@@ -81,8 +81,8 @@ To reproduce these benchmarks and recovery steps:
 
 **File System Setup**
 * NTFS
- * Format with sudo mkfs.ntfs -f /dev/sdb1
- * Mount for testing: sudo mount /dev/sdb1 /mnt/usb
+  * Format with sudo mkfs.ntfs -f /dev/sdb1
+  * Mount for testing: sudo mount /dev/sdb1 /mnt/usb
 * EXT4
   * Format with sudo mkfs.ext4 -f /dev/sdb1
   * Mount for testing: sudo mount /dev/sdb1 /mnt/usb
