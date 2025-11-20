@@ -144,6 +144,11 @@ The bar chart visually highlights how **EXT4 consistently outperforms NTFS in wr
 | **Overall Read Speed** | **Near Parity** | USB hardware is a bottleneck, NTFS showed slightly lower average latency. |
 | **Large File Handling** | **EXT4** | Instantaneous writes for `.zip`, `.mp4` vs. seconds for NTFS. |
 
+### Summary
+
+* EXT4 is dramatically faster for write-heavy workloads
+* Read performance similar; extreme file sizes favour EXT4 for write, NTFS for some high latency reads
+
 ---
 
 ## 🔎 Data Recovery Summary (Using Autopsy)
