@@ -124,19 +124,19 @@ A diverse set of files was selected for realistic benchmarking and recovery scen
 
 ## 🎓 Conclusion, Recommendation & Limitations
 
-[cite_start]For environments that prioritize **performance and low write latency** (especially for handling large files) on a Linux host, the **EXT4 file system is demonstrably superior** due to its native kernel support[cite: 309]. [cite_start]Overall, EXT4 demonstrated approximately **45–60% higher efficiency** than NTFS in this experiment[cite: 311].
+For environments that prioritize **performance and low write latency** (especially for handling large files) on a Linux host, the **EXT4 file system is demonstrably superior** due to its native kernel support. While NTFS is necessary for cross-platform compatibility with Windows, EXT4 provides better efficiency, lower latency, and superior throughput for Linux-native operations. Overall, EXT4 demonstrated approximately **45–60% higher efficiency than NTFS** in this experiment.
 
-### [cite_start]**Recommendation** [cite: 312]
+### **Recommendation**
 
-* [cite_start]**For Performance (Linux-Only):** Use **EXT4**[cite: 313].
-* [cite_start]**For Cross-Platform Compatibility:** Use **NTFS** but be aware of the **severe write latency penalty** when operating in a Linux environment[cite: 314].
-* [cite_start]**For Forensic Scenarios:** **NTFS is generally preferred for data recoverability** as it retains filenames and path structure, while **EXT4 recovery is faster** but often yields generic orphan files, requiring more manual effort to identify[cite: 315].
+* **For Performance (Linux-Only):** Use **EXT4**.
+* **For Cross-Platform Compatibility:** Use **NTFS** but be aware of the **severe write latency penalty** when operating in a Linux environment.
+* **For Forensic Scenarios:** **NTFS is generally preferred for data recoverability** as it retains filenames and path structure, while **EXT4 recovery is faster** but often yields generic orphan files, requiring more manual effort to identify.
 
-### [cite_start]**Limitations** [cite: 316]
+### **Limitations**
 
-* [cite_start]NTFS suffers serious write bottleneck under Linux due to FUSE driver overhead[cite: 317].
-* [cite_start]EXT4 recovery yields orphan files after deletion, losing original folder/filename[cite: 318].
-* [cite_start]USB hardware speed caps maximum performance for both systems[cite: 319].
+* NTFS suffers serious write bottleneck under Linux due to FUSE driver overhead.
+* EXT4 recovery yields orphan files after deletion, losing original folder/filename.
+* USB hardware speed caps maximum performance for both systems.
 
 ---
 
