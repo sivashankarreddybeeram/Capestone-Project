@@ -142,9 +142,10 @@ A diverse set of files was selected for realistic benchmarking and recovery scen
 
 ## 🔗 Project Links and Reports
 
-| Report Title | GitHub Link |
-| :--- | :--- |
-| **Overall Final Report** | [cite_start][Link to Final Report] [cite: 320] |
-| **NTFS VS EXT4 Benchmarking Report** | [cite_start][Link to Benchmarking Report] [cite: 321] |
-| **Autopsy Report (Data Recovery - NTFS)** | [cite_start][Link to NTFS Autopsy Report] [cite: 322] |
-| **Autopsy Report (Data Recovery - EXT4)** | [cite_start][Link to EXT4 Autopsy Report] [cite: 323] |
+**Overall Final Report** - https://github.com/sivashankarreddybeeram/Capestone-Project/blob/7e23ea940b59cc023eab283c74899c4f40bcfd4c/Final%20Report.pdf
+
+**NTFS VS EXT4 Benchmarking Report** - https://github.com/sivashankarreddybeeram/Capestone-Project/blob/7e23ea940b59cc023eab283c74899c4f40bcfd4c/NTFS%20VS%20EXT4%20Benchmarking%20Report.pdf
+
+**Autopsy Report (Data Recovery - NTFS)** - https://github.com/sivashankarreddybeeram/Capestone-Project/blob/7e23ea940b59cc023eab283c74899c4f40bcfd4c/Autopsy%20Report%20(Data%20Recovery%20-%20NTFS).pdf
+
+**Autopsy Report (Data Recovery - EXT4)** - https://github.com/sivashankarreddybeeram/Capestone-Project/blob/7e23ea940b59cc023eab283c74899c4f40bcfd4c/Autopsy%20Report%20(Data%20Recovery%20-%20EXT4).pdf
