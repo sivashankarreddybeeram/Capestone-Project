@@ -6,14 +6,16 @@ Team Members: Siva Shankar Reddy Beeram, Amanda Gwaba, Avipsa Sharma Paudel
 
 This project presents a comparative analysis of **NTFS** (New Technology File System) and **EXT4** (Fourth Extended File System) on a USB 3.2 Gen 1 Flash Drive with Ubuntu 22.04 VM. It covers read/write performance benchmarking and data recovery efficacy using the digital forensic tool **Autopsy**. Our goal is to determine which file system offers superior speed, metadata retention, and effective file restoration for **forensic readiness** and **enterprise use**.
 
+USB drives are ubiquitous in incident response, malware forensics, and regulatory audits. Knowing how file systems respond to deletion and recovery operations prepares professionals for high-stakes investigations.
+
 ---
 
 ## 🌟 Project Highlights
 
-* [cite_start]**Dual Focus:** Compares file systems from two critical perspectives: **Performance** (speed/latency) and **Forensic Readiness** (data recoverability and metadata preservation)[cite: 222].
-* [cite_start]**Key Finding (Performance):** **EXT4** demonstrated approximately **ten times faster** average write performance compared to NTFS when both were mounted on a Linux host, primarily due to NTFS reliance on the slower FUSE layer[cite: 223].
-* [cite_start]**Key Finding (Forensics):** **NTFS** proved superior for recovery, retaining filenames and path structure, while EXT4 often yielded generic "Orphan Files"[cite: 315].
-* [cite_start]**Tooling:** Utilized native Linux utilities (`/usr/bin/time` and `cp`) for benchmarking and **Autopsy** for digital forensic analysis[cite: 225].
+* **Dual Focus:** Compares file systems from two critical perspectives: **Performance** (speed/latency) and **Forensic Readiness** (data recoverability and metadata preservation).
+* **Key Finding (Performance):** **EXT4** demonstrated approximately **ten times faster** average write performance compared to NTFS when both were mounted on a Linux host, primarily due to NTFS reliance on the slower FUSE layer.
+* **Key Finding (Forensics):** **NTFS** proved superior for recovery, retaining filenames and path structure, while EXT4 often yielded generic "Orphan Files".
+* **Tooling:** Utilized native Linux utilities (`/usr/bin/time` and `cp`) for benchmarking and **Autopsy** for digital forensic analysis.
 
 ---
 
