@@ -134,7 +134,7 @@ To reproduce these benchmarks and recovery steps:
 
 The bar chart visually highlights how **EXT4 consistently outperforms NTFS in write speeds** across almost all file types, with read speeds nearly equal except for minor variations.
 
-
+**![File System Performance Chart](File_System_Performance.png)**
 
 ### **Key Performance Metrics**
 
