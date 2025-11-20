@@ -109,7 +109,7 @@ To reproduce these benchmarks and recovery steps:
 | File | NTFS Write (s) | NTFS Read (s) |
 | :--- | :--- | :--- |
 | `audio.mp3` | 0.02 | 0.01 |
-| 'image.jpg' | 0.00 | 0.00 |
+| `image.jpg` | 0.00 | 0.00 |
 | `document.pdf` | 0.02 | 0.00 |
 | `data.zip` | **1.18** | 0.04 |
 | `video1.mp4`| 0.83 | 0.03 |
@@ -117,9 +117,22 @@ To reproduce these benchmarks and recovery steps:
 | `chrome.deb`| 0.07 | — |
 | **AVERAGE** | **0.31s** | **0.03s** |
 
+### **EXT4 Performance Data (Elapsed Time in Seconds)**
+
+| File | EXT4 Write (s) | EXT4 Read (s) |
+| :--- | :--- | :--- |
+| `audio.mp3` | 0.02 | 0.01 |
+| `image.jpg` | 0.00 | 0.01 |
+| `document.pdf` | 0.01 | 0.02 |
+| `data.zip` | 0.00 | 0.01 |
+| `video1.mp4`| 0.05 | 0.07 |
+| `video2.mp4`| 0.04 | 0.05 |
+| `chrome.deb`| 0.08 | 0.14 |
+| **AVERAGE** | **0.03s** | **0.04s** |
+
 ### **Write and Read Speed Comparison: NTFS vs EXT4**
 
-[cite_start]The bar chart visually highlights how **EXT4 consistently outperforms NTFS in write speeds** across almost all file types, with read speeds nearly equal except for minor variations[cite: 282].
+The bar chart visually highlights how **EXT4 consistently outperforms NTFS in write speeds** across almost all file types, with read speeds nearly equal except for minor variations.
 
 
 
