@@ -149,6 +149,8 @@ The bar chart visually highlights how **EXT4 consistently outperforms NTFS in wr
 * EXT4 is dramatically faster for write-heavy workloads
 * Read performance similar; extreme file sizes favour EXT4 for write, NTFS for some high latency reads
 
+(**Note** - Refer to the **Final Report** or **NTFS vs EXT4 Benchmarking Report** for detailed steps on NTFS and EXT4 benchmarking. These reports are stored in the repository, and you’ll find their links in the Project Links and Reports section.)
+
 ---
 
 ## 🔎 Data Recovery Summary (Using Autopsy)
