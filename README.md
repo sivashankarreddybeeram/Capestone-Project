@@ -190,6 +190,12 @@ The forensic analysis revealed a critical difference in how each file system han
 | **NTFS** | Files identified by name (e.g., `chrome.deb`, `data.zip`). | **Successful.** Deleted file scan shows comprehensive file restoration (normal filenames and folder structure retained). |
 | **EXT4** | Files appeared as generic **"Orphan Files"**. | **Partial/Unsuccessful.** Extracted files were labeled with numerical identifiers and shown as **0 KB** in size, indicating data blocks were not fully recoverable or correctly reassembled. |
 
+### **Autopsy Results Visualization**
+
+The charts below illustrate the stark difference in file recovery quality between the two file systems, where "With Metadata" means the original filename and path were successfully recovered.
+
+**![Autopsy Recovery Ratios Chart](File_Recovery_Ratios_Chart.png)**
+
 (**Note** - Refer to the **Final Report** or **Autopsy Reports** for detailed steps on Autopsy setup and Data recovery using Autopsy. These reports are stored in the repository, and you’ll find their links in the **Project Links and Reports** section)
 
 ---
